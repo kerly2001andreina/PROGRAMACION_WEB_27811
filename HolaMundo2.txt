@@ -1,2 +1,0 @@
-Hola estoy probando la terminal de Visual Studio Code usando git bash
-ESTE ES UN NUEVO ARCHIVO DE PRESENTACION DE HOLA MUNDO PARA MIS ESTUDIANTES
