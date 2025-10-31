@@ -1,0 +1,47 @@
+/*ESTILOS CSS*/
+h1{
+    color: blueviolet;
+    text-align: center;
+    background-color: lightgray;
+}
+textarea{
+    background-color: aquamarine;
+}
+label,footer{
+    background-position: 25%;
+    text-align: center;
+    background-color: lightgray;
+
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#radio1, #radio2{
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+#enviar{
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+footer{
+    
+    color: white;
+    text-transform: uppercase;
+    margin: 100px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: url(../images/6mCHhus.jpg);
+    height: 1000px;
+    background-size: cover;
+    width: 100%;
+}

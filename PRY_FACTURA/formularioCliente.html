@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cliente</title>
+</head>
+<body>
+
+    <main>
+        <form>
+
+            <!-- TABLA DE INFORMACIÓN PARA FORMULARIO CLIENTE-->
+             <h1>Formulario cliente</h1>
+            <h2>Información</h2>
+            <table border="2" colspace="5" colspace="0">
+                <tr>
+                    <td><label for="nombre">Nombre y Apellido:</label></td>
+                    <td><input type="text" id="nombre" name="nombre" placeholder="Pedrito Perez"></td>
+                    <td><label for="nacimiento">Fecha de Nacimiento:</label></td>
+                    <td><input type="date" id="nacimiento" name="nacimiento"></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" id="telefono" name="telefono" placeholder="0999999999"></td>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="pperez@espe.edu.ec"></td>
+                </tr>
+                <tr>
+                    <td><label for="direccion">Dirección:</label></td>
+                    <td colspan="4"><input type="text" id="direccion" name="direccion" placeholder="Sangolqui" size="60"></td>
+                </tr>
+            </table>
+
+            <br>
+
+            <!-- TABLA DE PROCEDIMIENTO -->
+            <h2>Procedimiento</h2>
+            <table border="2" colspace="5" colspace="0">
+                <tr>
+                    <th>Fecha Sesión</th>
+                    <th>Observaciones</th>
+                </tr>
+                <tr>
+                    <td><input type="date" id="fecha1" name="fecha1"></td>
+                    <td><input type="text" id="observacion1" name="observacion1"></td>
+                </tr>
+                <tr>
+                    <td><input type="date" id="fecha2" name="fecha2"></td>
+                    <td><input type="text" id="obs2" name="obs2"></td>
+                </tr>
+                <tr>
+                    <td><input type="date" id="fecha3" name="fecha3"></td>
+                    <td><input type="text" id="obs3" name="obs3"></td>
+                </tr>
+                <tr>
+                    <td><input type="date" id="fecha4" name="fecha4"></td>
+                    <td><input type="text" id="obs4" name="obs4"></td>
+                </tr>
+                <tr>
+                    <td><input type="date" id="fecha5" name="fecha5"></td>
+                    <td><input type="text" id="obs5" name="obs5"></td>
+                </tr>
+            </table>
+
+            <br>
+
+           
+
+            <br>
+
+            <button type="submit">Guardar Formulario</button>
+            <button type="submit">Enviar Formulario</button>
+
+        </form>
+    </main>
+
+</body>
+</html>

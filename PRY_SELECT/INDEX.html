@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT</title>
+</head>
+<body>
+    <header>
+        <h1>SELECT EN FORMULARIO</h1>
+    </header>
+    <main>
+        <form action="server.html" metodo="get">
+            <label for="g">GENERA ID DE BANNER</label>
+            <input type="text" name="" id="" pattern="[A-Z]{3}">
+            <!--<input type="submit" value="ENVIAR AL SERVIDOR">-->
+            <!--SELECT PARA FORM-->
+            <label for="lenguaje de programacion ">SELECCIONE SU LENGUAJDE DE PROGRAMACION FAVORITO</label>
+            <select name="lenguaje de programacion" id="lenguaje de programacion">
+                <option value="c_mas_mas">C++</option>
+                <option value="PHYTON">PHYTON</option>
+                <option value="JAVA">JAVA</option>
+                <option value="HTML"disabled>HTML</option>
+                </select>
+            <br>
+            <br>
+            <!--SELECT PARA FORM-->
+            <label for="musica_favorita">Seleccione su musica favortia</label>
+            <br>
+            <select name="musica_favorita" id="musica favorita" multiple required max="2">
+                <optgroup title="REGGAETON" label="REGGAETON">
+                <option value="LOBA">SHAKIRA LOBA</option>
+                <option value="Anoche" selected>BAd bunny</option>
+                <option value="All of me"disabled>Jonh Lennon</option>
+                <option value="Triste">JOSE JOSE TRISTE</option>
+                </optgroup>
+
+            
+            </select>
+            <br>
+            <!--SELECT PARA FORM-->
+            <br>
+            <fieldset>
+                <label for="lenguaje de programacion ">SELECCIONE SU LENGUAJDE DE PROGRAMACION FAVORITO</label>
+            <select name="lenguaje de programacion" id="lenguaje de programacion">
+                <option value="c_mas_mas">C++</option>
+                <option value="PHYTON">PHYTON</option>
+                <option value="JAVA">JAVA</option>
+                <option value="HTML"disabled>HTML</option>
+                </select>
+            </fieldset>
+            <br>
+             <select name="musica_favorita" id="musica favorita" multiple required size="2" autofocus >
+                <optgroup title="CHICHA" label="CHICHA">
+                <option value="LALALA">Gerardo moran</option>
+                <option value="Me fui" selected>Paulina Tamayo</option>
+                <option value="All"disabled>Margarita Luge</option>
+                <option value="T">JOSE Rucardo</option>
+                </optgroup>
+
+            
+            </select>
+
+
+
+            <br>
+            <!--TEXT AREA PARA FORM-->
+            <br>
+            <label for="frase motivadora">Ingrese su frase del dia de hoy</label>
+            <br>
+            <textarea name="frasemotivadora" id="frasemotivadora" rows="5"cols="18" required disabled>
+                BUENOS DIAS CHICOS DE PROGRAMACION
+            </textarea>
+
+            <br>
+            <br>
+        <!--HIDDEN-->
+        <br>
+        <input type="hidden" name="cedula_usuario" value="1234562314">
+
+            <button type="submit">Enviar al servidor</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        FORM TUTORIA
+    </title>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIO TUTORIA</h1>
+    </header>
+    <main>
+        <form action="server3.html" method="get">
+            <input type="hidden" name="numero de tarjeta" value="144265412">
+            
+            <input type="text" 
+            name="nombre" 
+            placeholder="Ingrese su nombre completo" 
+            required
+            pattern="[A-Za-z]+"
+            value="VILMER DAVID"
+            >
+
+            <!--<input 
+            type="number" 
+            name="edad" 
+            required
+            min="18"
+            max="60">-->
+
+            <!--<input type="text" name="EDAD" required pattern="[0-9]+"></input>-->
+            <label for="edad">Ingrese su edad entre 18 y 60 años: </label>
+            <input 
+            type="number" 
+            name="edad"
+            required
+            pattern="([1-9][0-9])"
+            >
+
+            <button type="submit">Enviar datos al servidor</button>
+        </form>
+
+
+    </main>
+    <footer>
+        <p>2025</p>
+    </footer>
+
+</body>
+</html>

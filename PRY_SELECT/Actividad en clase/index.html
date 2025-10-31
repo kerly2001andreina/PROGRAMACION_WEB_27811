@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO ESTUDIANTE</title>
+    <header>
+        <h1>Registro estudiante carrera</h1>
+    </header>
+    <main>
+        <form action="server.html" metodo="get" >
+            <!--ID BANNER-->
+            <!-- campo id banner q acepte primero 3 letras mayusculas y 5 numeros validado-->
+            <label for="banner">Genera ID Banner</label>
+            <input type="text" name="idbanner" id="idbanner" pattern="[A-Z]{3}[0-9]{5}" maxlength="8" required>
+            <br>
+            <!--INGRESO CEDULA-->
+            <label for="cedula">Ingrese el numero de su cedula</label>
+            <input type="text" name="cedula" id="cedula" pattern="[0-9]" maxlength="10">
+            <br>
+            <!--INGRESO FECHA DE NACIMIENTO PARA AQUELLOS QUE TENGAN ENTRE 15 A 20 AÑOS-->
+            <label for="nacimiento">Ingrese su fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento" min="2003-01-01" max="2008-12-31" required>
+            <br>
+            <!--SELECCION MATERIAS-->
+            <label for="materias ">Seleccione las materias de su carrera</label>
+            <select name="materias" id="materias" required max="5">
+                <optgroup title="Materias:" label="Materias"></optgroup>
+                <option value="programacionweb">Programacion Web</option>
+                <option value="computaciondigital">Computacion Digital</option>
+                <option value="BaseDatos">Base de Datos</option>
+                <option value="computacionparalela">Computacion Paralela</option>
+                <option value="investigacion">Investigacion Cientifica</option>
+                <option value="metodosnumericos" disabled>Metodos Numericos</option>
+                <option value="fundamentos" disabled>Fundamentos</option>
+            </select>
+            <!-- comentario hoja de vida -->
+             <input type="file" name="documento" id="documento" accept=".pdf">
+            
+        </form>
+    </main>
+    <footer>
+        <button type="submit">Enviar al servidor</button>
+    </footer>
+</head>
+
+<body>
+
+</body>
+
+</html>

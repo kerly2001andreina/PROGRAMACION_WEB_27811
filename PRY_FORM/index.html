@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUCCION A LOS FORMULARIOS</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>FORMULARIO PARA INGRESAR DATOS DE UNA PERSONA</h1>
+    </header>
+    <main>
+        <!--form-->
+        <form action="server.html" method="get">
+
+            <label for="apellidos">Ingrese su apellido:</label>
+            <input 
+            type="text" 
+            name="apeliidos"
+            id="apellidos"
+            placeholder="Ejem CRIOLLO"
+            maxlength="5"
+            minlength="3"
+            >
+
+        </form>
+        <form action="server.html" method="get">
+
+            <label for="apellidos">Ingrese su apellido:</label>
+            <input 
+            type="text" 
+            name="apeliidos"
+            id="apellidos"
+            placeholder="Ejem CRIOLLO"
+            maxlength="5"
+            minlength="3"
+            >
+
+        </form>
+
+        <!--NUMEBER-->
+        <label for="edad">INGRESE SU EDAD</label>
+        <input
+            type="numer"
+            name="edad"
+            id=""
+            min="1"
+            max="2"
+            placeholder="ejem 20"
+
+        >
+        <form>
+        <!--EMAIL-->
+        <label for="email">correo electronico</label>
+        <input
+            type="email"
+            name="edad"
+            id=""
+            placeholder="Ejem:kachuqui@espe.edu.ec"
+            value="kachuqui@espe.edu.ec"
+        >
+        </form>
+        <!--date-->
+        <label for="fecha">Ingrese su fecha de nacimiento</label>
+        <input
+            type="date"
+            name="feccha_nacimiento"
+            id="fecha"
+            placeholder="14/02/1993"
+            value="2024-02-02"
+            max="2025-10-22"
+            min="2025-10-18"
+        >
+    <form>
+    <!--RADIO-->
+    <label for="hombre">Seleccione su sexo:</label>
+    <label for="hombre">Hombre</label>
+    <input type="radio" name="sexo" id="hombre" value="hombre" checked>
+    <label for="mujer">Mujer</label>
+    <input type="radio" name="sexo" id="mujer" value="mujer">
+    <label for="desconocido">Desconocido</label>
+    <input type="radio" name="sexo" id="desconocido" value="desconocido" disabled>
+    </form>
+    <br>
+    <!--CHECKBOX-->
+    <label for="">Seleccione sus dias de clases de web</label>
+    <label for="lunes">LUNES</label>
+    <input type="checkbox" name="dias[]" id="lunes">
+    <label for="lunes">MARTES</label>
+    <input type="checkbox" name="dias[]" id="lunes">
+    <label for="lunes">MIERCOLES</label>
+    <input type="checkbox" name="dias[]" id="lunes">
+    <label for="lunes">JUEVES</label>
+    <input type="checkbox" name="dias[]" id="lunes">
+    <label for="lunes">VIERNES</label>
+    <input type="checkbox" name="dias[]" id="lunes">
+
+    <!--INPUT-->
+    <label for="foto">Suba su foto de perfil</label>
+    <input type="file" name="foto" id="foto" accept="applicationpdf">
+
+    <br>
+    <!--COLOR-->
+    <label for="color">Seleccione su color:</label>
+    <input type="color" name="color" id="color" value="#58bf2b">
+
+    <br>
+    <!--RANGE-->
+    <label for="estatura">Seleccione su estatura</label>
+    <input type="range" name="estatura" id="estatura" value="25" min="10" max="250">
+
+    <br>
+    <!--RESET-->
+    <label for="vaciar">VACIAR FORMULARIO</label>
+    <input type="reset" name="vaciar" id="vaciar">
+
+    <br>
+    <!--search-->
+    <label for="cedula">BUSCAR POR CEDULA</label>
+    <input type="search" name="cedula" id="cedula">
+
+    <br>
+    <!--submit-->
+    <label for="enviar">ENVIAR DATO</label>
+    <input type="submit" name="enviar" id="enviar">
+
+    <br>
+    <!--HIDDEN PASSWORD-->
+    <label for="password">Ingrese contraseña</label>
+    <input type="password" name="password" id="password">
+
+    <br>
+    <!--submit-->
+    <label for="enviar">ENVIAR FORMULARIO</label>
+    <input type="submit" name="enviar" id="enviar">
+
+
+
+
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
