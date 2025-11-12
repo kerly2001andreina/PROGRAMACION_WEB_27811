@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA PARA AVENTUREROS DIGITALES</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <header>
+        <center><h1>Registro al club de aventureros Digitales</h1></center>
+        <nav class="navegacion">        
+            <center>
+                <a href="#inicio">Inicio</a>    
+                <a href="#login"> | Log In</a>
+                <a href="#Contactos"> | Contactos</a> 
+            </center>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <aside class="Inicio">
+            <center>Categorias</center>
+                <a href="#nosotros"><button class="btnCategoria">Nosotros</button > </a>
+                <a href="#herramienta"><button class="btnCategoria">Herramientas</button > </a>
+                <a href="#acercademi"><button class="btnCategoria">Acerca de Mi</button></a>
+            
+        </aside>
+        <section class="articulos">
+            <h2 id="herramienta">Herramientas</h2>
+            <figure class="articulo">
+                <img src="./public/img/image1.png" alt="herramienta1" id="herramienta1">
+                <figcaption>
+                    <h3>Programa</h3>
+                    <p>Una iniciativa del Ministerio de Tecnologías de la Información y las Comunicaciones y el British Council, con apoyo del Ministerio de Educación Nacional, que tiene como propósito generar recursos y oportunidades de desarrollo profesional docente para fomentar el pensamiento computacional en instituciones educativas oficiales de Colombia, con un enfoque en pro de la equidad de género.</p>
+                    <button class="btnComprar">Info</button>
+                </figcaption>
+            </figure>
+
+            <figure class="articulo">
+                <img src="./public/img/image2.png" alt="herramienta2" id="herramienta2">
+                <figcaption>
+                    <h3>Estrategia Codigo Verde</h3>
+                    <p>El primer ecosistema de aprendizaje para el desarrollo de habilidades de pensamiento computacional para niños, niñas y jóvenes de colegios públicos y privados en Colombia.</p>
+                    
+                    <button class="btnComprar">Consulta</button>
+                </figcaption>
+            </figure>
+            
+        </section>
+        
+        <aside class="chatbot">
+            <center>Chatbot</center>
+            <center><img src="./public/img/chat.png" id="bot"></center>
+            <form class="chat">
+                <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <input type="submit" value="Enviar" id="botonEnviar">
+            </form>
+            
+        </aside>
+        
+      </div>
+      <footer>
+        <h4>Sobre Nosotros</h4>
+        <p>Somos una pagina web sobre aventureros digitales! Ven y aprende con nosotros</p>
+        <h4>Siguenos</h4>
+        <seccion class="redes">
+            <a href="https://www.facebook.com" target="_blank">
+                <figure>
+                    <center><img src="./public/img/facebook.png" id="logoFacebook" class="logoRedes"></center>
+                </figure>
+            </a> 
+            <a href="https://www.instagram.com" target="_blank">
+                <figure>
+                    <center><img src="./public/img/ig.png" id="logoInstagram" class="logoRedes"></center>
+                </figure> 
+            </a>          
+        </seccion>
+        <form action="contacto.html">
+            <input type="submit" value="Ver contacto" id="botonContacto">
+        </form>
+        <p>Derechos reservados 2025 por Kerly Chuqui</p>
+    </footer>
+    </div>
+</body>
+</html>

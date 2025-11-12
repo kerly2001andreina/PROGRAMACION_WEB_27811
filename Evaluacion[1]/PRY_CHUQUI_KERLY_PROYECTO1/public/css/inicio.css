@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:rgb(72, 26, 129);
+    color: wheat;
+}
+#logIn{
+    width: 20%;
+    margin: auto;
+}
+body{
+    background: rgb(116,63,251);
+    background: radial-gradient(circle, rgba(116,63,251,1) 0%, rgba(252,70,236,1) 100%);
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    color: blue;
+    font-size: 30px;
+    background-color: rgb(151, 81, 216);
+    margin-right: 300px;
+    margin-left: 300px;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+.logIn{
+    width: 200px;
+}
+.btnIngresar {
+    width: 70px;
+    color: blue;    
+}
