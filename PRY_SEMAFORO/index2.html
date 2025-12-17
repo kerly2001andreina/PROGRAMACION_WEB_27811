@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOSTRAR NUMEROS INICIO Y FIN</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>INGRESO DE NUMEROS</h1>
+    </header>
+    <main class="container">
+        <div class="col-sm-3">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="formId1" id="txt_numero_1"  />
+                <label for="txt_numero_1">INGRESE EL PRIMER NUMERO:</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="formId1" id="txt_numero_2"  />
+                <label for="txt_numero_2">INGRESE EL SEGUNDO NUMERO:</label>
+            </div>
+            <div class="d-grid gap-2">
+                <button type="button" id="btn_calcular" class="btn btn-primary">
+                    VER RESULTADO
+                </button>
+            </div>
+            <h1 id="txt_resultado"></h1>
+        </div>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/inicioFin.js"></script>
+
+</body>
+
+</html>

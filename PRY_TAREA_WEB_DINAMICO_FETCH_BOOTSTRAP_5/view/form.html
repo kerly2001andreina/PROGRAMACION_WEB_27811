@@ -1,0 +1,70 @@
+<section id="register" style="background: url('./public/vendor/template/images/background-img.png');">
+    <div class="container ">
+        <div class="row my-5 py-5">
+            <div class="offset-md-3 col-md-6 my-5 ">
+                <h2 class="display-3 fw-normal text-center">Registrarse <br><span class="text-primary">Ingresa tus datos</span>
+                </h2>
+                <form class="mt-4" action="./view/salida.html" method="GET">
+                    <!-- nombre -->
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" name="name" id="name" placeholder="Ingresa tu nombre" required maxlength="50" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras">
+                    </div>
+                    <!-- apellido -->
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" name="lastname" id="lastname" placeholder="Ingresa tu apellido" required maxlength="50" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras">
+                    </div>
+                    <!-- fecha de nacimiento -->
+                    <div class="mb-3">
+                        <input type="date" class="form-control form-control-lg" name="birthdate" id="birthdate"
+                            placeholder="Ingresa tu fecha de nacimiento" required>
+                    </div>
+                    <!-- teléfono -->
+                    <div class="mb-3">
+                        <input type="tel" class="form-control form-control-lg" name="phone" id="phone" placeholder="Ingresa tu teléfono" required pattern="\d{7,15}" maxlength="15" title="Ingresa solo dígitos (7-15)">
+                    </div>
+                    <!-- email   -->
+                    <div class="mb-3">
+                        <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Ingresa tu correo electrónico" required>
+                    </div>
+                    <!-- password   -->
+                    <div class="mb-3">
+                        <input type="password" class="form-control form-control-lg" name="password" id="password1" placeholder="Crea una contraseña" required minlength="6" maxlength="30">
+                    </div>
+                    <!-- repeat password   -->
+                    <div class="mb-3">
+                        <input type="password" class="form-control form-control-lg" name="confirm_password" id="password2" placeholder="Repite la contraseña" required minlength="6" maxlength="30">
+                    </div>
+                    
+                    <!-- submit button -->
+                    
+                    <!-- country select -->
+                    <div class="mb-3">
+                      <label for="country" class="form-label">País</label>
+                      <select class="form-select form-select-lg" id="country" name="country" required>
+                        <option value="">Selecciona tu país</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PE">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="ES">España</option>
+                      </select>
+                    </div>
+                    <!-- message textarea -->
+                    <div class="mb-3">
+                      <label for="bio" class="form-label">Cuéntanos sobre ti</label>
+                      <textarea id="bio" name="bio" class="form-control" rows="4" maxlength="500" placeholder="Escribe algo sobre ti (máx 500 caracteres)"></textarea>
+                    </div>
+                    <!-- terms checkbox -->
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                      <label class="form-check-label" for="terms">Acepto los términos y condiciones</label>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-dark btn-lg rounded-1">Regístrate ahora</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

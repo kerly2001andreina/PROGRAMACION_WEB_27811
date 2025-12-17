@@ -1,0 +1,47 @@
+.caja-static{
+    position: static;
+    background-color: rgb(255, 0, 174);
+    margin: 2px 2 px 2px 2 px;
+    padding: 5px;
+    top: 100px;
+    right: 50px;
+
+}
+.caja-relative{
+    position: relative;
+    background-color: rgba(169, 112, 221, 0.799);
+    margin: 2px 2 px 2px 2 px;
+    padding: 5px;
+    top: 10px;
+    left: 10px;
+
+}
+
+.contenedor{
+    position: relative;
+    background-color: rgb(133, 127, 255);
+    color: white;
+
+
+}
+
+.caja-absolute{
+    position: absolute;
+    background-color: brown;
+    color: rgb(240, 255, 247);
+    top: 200px;
+    left: 500px;
+}
+.caja-fixed{
+    position: fixed;
+    background-color: coral;
+    top: 10px;
+    right: 20px;
+    color: aquamarine;
+}
+.whatsapp{
+    position: relative;
+    background-color: blue;
+    bottom: 15px;
+    
+}

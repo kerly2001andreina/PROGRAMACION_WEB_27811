@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        SEMAFORO CON CONDICIONES
+    </title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+    <!-- CONTENEDOR INICIAL -->
+    <div class="container p-5">
+        <a href="./mostrarNumerodelUnoalSiez.html">para ur a numero del 1 al 10</a> 
+        <a href="./mostrarNumerodelUnoalSiez.html">para ur a numero del 1 al 10</a> 
+        
+        <a href="./tablas.html"> tablas</a>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" id="radio_rojo" value="rojo"   >
+            <label class="form-check-label bg-danger" for="radio_rojo">
+                ROJO
+            </label>
+        </div>
+
+        <!-- AMARILLO -->
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" id="radio_amarillo" value="amarillo" >
+            <label class="form-check-label bg-warning" for="radio_amarillo">
+                AMARILLO
+            </label>
+        </div>
+
+        <!-- VERDE -->
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" id="radio_verde" value="verde" checked >
+            <label class="form-check-label bg-success" for="radio_verde">
+                VERDE
+            </label>
+        </div>
+
+        <h1 class="text-white" id="txt_resultado">
+            <!-- PARAR -->
+        </h1>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/semaforo_if.js"></script>
+    <!-- <script src="./public/js/semaforo.js"></script> -->
+
+</body>
+
+</html>

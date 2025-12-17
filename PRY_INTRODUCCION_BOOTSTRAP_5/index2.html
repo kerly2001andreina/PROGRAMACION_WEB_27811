@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopta un Gatito</title>
+  <link href="./vendor/bootstrap-5/css/bootstrap.min.css" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+       Adopta un Gatito
+    </a>
+  </div>
+</nav>
+
+<!-- ALERTA PRINCIPAL -->
+<div class="alert alert-success d-flex align-items-center mt-3" role="alert">
+  <div>
+    ¡Adopta, no compres! Dale un hogar lleno de amor a un gatito necesitado ❤️🐈
+  </div>
+</div>
+
+<!-- CAROUSEL DE GATITOS -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://th.bing.com/th/id/R.cfba569597db7da1c5c762e85a9b6290?rik=4Kp3fflwpL7hsg&riu=http%3a%2f%2fwww.mundogatos.com%2fUploads%2fmundogatos.com%2fImagenesGrandes%2ffotos-de-gatitos-8.jpg&ehk=nNkCkFSy09ojMk9YbyUVe%2bAha3RjcWQuOV6R25CWo4k%3d&risl=&pid=ImgRaw&r=0" height="550" width="10" class="d-block w-100" alt="Gatito 1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://mininos.es/wp-content/uploads/2022/06/21-datos-perfectos-sobre-los-gatitos-1024x685.jpg"  height="550" class="d-block w-100" alt="Gatito 2">
+    </div>
+    <div class="carousel-item">
+      <img src="https://dnaimg.com/2012/04/26/50-kittens-giving-you-kitty-cat-eyes-ei3/042.jpg" height="550" class="d-block w-100" alt="Gatito 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<!-- ACORDEÓN: Misión, Visión, Valores -->
+<div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Misión
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Rescatar, cuidar y encontrar hogares amorosos para gatitos en situación de abandono.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Visión
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Ser una organización referente en el bienestar y adopción responsable de gatos en toda la ciudad.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Valores
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Amor, respeto animal, responsabilidad, compromiso y solidaridad.</div>
+    </div>
+  </div>
+</div>
+
+<!-- CARDS DE GATITOS DISPONIBLES -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Gatitos en Adopción</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://www.purina.com/sites/default/files/styles/2x1_small/public/2023-02/kitten-development-stages.jpg?itok=9x9kuUq-" class="card-img-top" alt="Luna">
+        <div class="card-body">
+          <h5 class="card-title">Luna</h5>
+          <p class="card-text">Cariñosa, juguetona y muy sociable. Ideal para familias con niños.</p>
+          <a href="#" class="btn btn-primary">Adoptar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.eGIzuD71eoGRjN8fizxpUQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Simón">
+        <div class="card-body">
+          <h5 class="card-title">Simón</h5>
+          <p class="card-text">Tranquilo, dormilón y amante de las caricias. Espera un hogar cálido.</p>
+          <a href="#" class="btn btn-primary">Adoptar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/R.6d52344902b68ccd6a892fbb7102c7af?rik=RYgBtAL62rWcYQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-_wbw2GqfXvU%2fT9eZeH4M-iI%2fAAAAAAAADDQ%2fdgENaQ925Ts%2fs1600%2fGatito%2b026.jpg&ehk=gktfsh4XOZBJEVJSTh2C64mB9gZh3E3QEFcx2uGqryE%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Michi">
+        <div class="card-body">
+          <h5 class="card-title">Michi</h5>
+          <p class="card-text">Curioso y explorador. Le encanta jugar con pelotas y trepar.</p>
+          <a href="#" class="btn btn-primary">Adoptar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BOTONES -->
+<div class="text-center mt-5">
+  <button type="button" class="btn btn-outline-success">Ver Todos los Gatitos</button>
+  <button type="button" class="btn btn-outline-info">Cómo Adoptar</button>
+  <button type="button" class="btn btn-outline-warning">Donar</button>
+</div>
+
+<!-- FOOTER CON BADGES -->
+<div class="text-center mt-5 mb-4">
+  <span class="badge rounded-pill bg-success">Adopciones</span>
+  <span class="badge rounded-pill bg-warning text-dark">Rescate</span>
+  <span class="badge rounded-pill bg-info text-dark">Voluntariado</span>
+</div>
+
+<!-- PAGINACIÓN -->
+<nav aria-label="Page navigation example" class="d-flex justify-content-center">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+  </ul>
+</nav>
+
+<!-- TOAST DE NOTIFICACIÓN -->
+<div class="toast show mx-auto" style="width: 300px;">
+  <div class="toast-header">
+    <strong class="me-auto">🐾 Adopta un Gatito</strong>
+    <small>Hace 2 min</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+  </div>
+  <div class="toast-body">
+    ¡Gracias por visitar nuestra página! 💚
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+</body>
+</html>
