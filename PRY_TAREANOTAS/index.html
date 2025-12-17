@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Evaluación de Estudiantes</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="bg-dark text-white"></div>
+    
+    <div class="container mt-4">
+        <h1 class="text-center">SISTEMA DE NOTAS JS</h1>
+        <hr>
+
+        <div class="alert alert-secondary text-center" role="alert">
+            Notas a procesar: <strong>[8, 4, 10, 6, 3, 9, 5, 7, 2]</strong>
+        </div>
+
+        <div class="d-grid gap-2 mb-4">
+            <button type="button" id="btn_calcular" class="btn btn-primary btn-lg" onclick="calcularNotas()">
+                CALCULAR RESULTADOS
+            </button>
+        </div>
+
+        <div class="card text-dark">
+            <div class="card-header bg-warning fw-bold">
+                RESULTADOS DEL CURSO
+            </div>
+            <ul class="list-group list-group-flush">
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Total Aprobados (7-10)
+                    <span class="badge bg-success rounded-pill" id="total_aprobados">0</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Total Supletorios (5-6)
+                    <span class="badge bg-warning text-dark rounded-pill" id="total_supletorios">0</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Total Reprobados (0-4)
+                    <span class="badge bg-danger rounded-pill" id="total_reprobados">0</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center fw-bold">
+                    Promedio General
+                    <span class="badge bg-info text-dark rounded-pill" id="promedio_curso">0.00</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center fw-bold">
+                    Estado del Curso
+                    <span id="estado_curso">---</span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="./public/js/arregloNotas.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
