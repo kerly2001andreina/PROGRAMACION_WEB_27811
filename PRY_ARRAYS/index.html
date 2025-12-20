@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Invitados</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="card shadow-sm col-md-6 mx-auto">
+            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Control de Invitados</h4>
+                <span class="badge bg-warning text-dark">Total: <span id="contador">0</span></span>
+            </div>
+            
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" id="txt_invitado" class="form-control" placeholder="Nombre del invitado...">
+                    <button class="btn btn-primary" id="btn_registrar" type="button">Registrar</button>
+                </div>
+
+                <ul id="lista_visual" class="list-group list-group-flush">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/js/arrays.js"></script>
+</body>
+</html>
